@@ -2,13 +2,11 @@
 
 ## What It Does
 
-When you create a rule in Outlook for a new contact, name the rule exactly the same as the folder you want their emails moved to. For example:
+Over time, Outlook rules build up. You might have 20 separate rules all doing the same thing — moving emails from different Vietnam suppliers into your Vietnam folder. Another 15 rules all moving emails into your Shippers folder. And so on. Before long you have hundreds of rules that are hard to manage.
 
-- Email from a Vietnam supplier → name the rule **Vietnam**
-- Email from a local contact → name the rule **Local**
-- Email from a shipper → name the rule **Shippers**
+This script cleans that up. It looks at all your rules, groups together every rule that moves emails into the same folder, and merges them into one single rule per folder. So instead of 20 separate Vietnam rules, you end up with just one Vietnam rule that covers all 20 suppliers. Instead of 15 Shippers rules, one Shippers rule. Your emails still land in exactly the right folders — there are just far fewer rules doing it.
 
-When you run this script, it finds all rules that share the same folder name, merges them into one single rule, and deletes the individual ones. Your emails still go to exactly the right folders — there are just far fewer rules doing it.
+The only thing you need to do to make this work is follow one simple naming convention when creating rules, explained in the next section.
 
 ---
 
