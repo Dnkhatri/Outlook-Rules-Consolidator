@@ -21,7 +21,7 @@ Every time you create a new rule in Outlook:
 
 For example, if the email should go to your **Vietnam** folder, name the rule **Vietnam**.
 
-That's the only convention you need to follow. The script handles everything else.
+That's the only convention you need to follow whne create the main rule in the future when ever you create a rule that moves the email to that folder the script would consolidate it to the main rule. The script handles everything else.
 
 ---
 
